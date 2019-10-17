@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+# filepath: shell/04.fuxi
+# email: qyf1009@163.com
+# author: qian1009
+# date: 2019/10/14
+# modify_time: @time-pass
+# usage: fuxi shell
+
+var01=1
+var02=5
+if [ var01-lt2 ] && [ var02-gt4 ];then
+	echo "ture"
+else
+	echo "false"
+fi
+
+if [ -s /etc/passwd ];then
+	echo "该文件存在"
+else
+	echo "该文件不存在"	
+fi
+
+
